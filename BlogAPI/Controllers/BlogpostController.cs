@@ -74,5 +74,28 @@ namespace BlogAPI.Controllers
             return new { message = "sikeres törlés", resoult = "" };
         }
 
+
+        [HttpPut]
+
+        public object updateBlogger([FromQuery] int id, UpdateBlogPostDto updateblogpostdto)
+        {
+            var connection = new MySqlConnection(ConnectionString);
+            connection.Open();
+
+            var sql = @"UPDATE `blogpost` SET `Title`=@title,`Content`=@content,`updateTime`=@time WHERE `id`=@id";
+
+            var cmd = new MySqlCommand(sql, connection);
+            cmd.Parameters.AddWithValue("@title", updateblogpostdto.Title);
+            cmd.Parameters.AddWithValue("@Content", updateblogpostdto.Content);
+            cmd.Parameters.AddWithValue("@time", DateTime.Now);
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.ExecuteNonQuery();
+            connection.Close();
+
+            return new { message = "sikeres frissites", resoult = updateblogpostdto };
+        }
+
     }
+
+
 }
