@@ -1,4 +1,5 @@
 ﻿using BlogAPI.Models;
+using BlogAPI.Models.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MySqlConnector;
@@ -35,5 +36,43 @@ namespace BlogAPI.Controllers
 
             return Blogposts;
         }
+
+        [HttpPost]
+        public object AddNewPost(AddNewBlogPostDto newblogpost) {
+            var connection = new MySqlConnection(ConnectionString);
+            connection.Open();
+            var sql = @"INSERT INTO `blogpost`(`Title`, `Content`, `postTime`, `updateTime`, `blogId`) VALUES (@title, @Content, @posttime, @updatetime, @bloggerid)";
+            var cmd = new MySqlCommand(sql, connection);
+            cmd.Parameters.AddWithValue("@title", newblogpost.Title);
+            cmd.Parameters.AddWithValue("@Content", newblogpost.Content);
+            cmd.Parameters.AddWithValue("@posttime", DateTime.Now);
+            cmd.Parameters.AddWithValue("@updatetime", DateTime.Now);
+            cmd.Parameters.AddWithValue("@bloggerid", newblogpost.blogId);
+
+            cmd.ExecuteNonQuery();
+
+
+            connection.Close();
+            return new { objectum = newblogpost, message = "Siekres felvétel" };
+
+
+        }
+
+        [HttpDelete]
+
+        public object DeleteBlogPost(int id)
+        {
+            var connenction = new MySqlConnection(ConnectionString);
+            connenction.Open();
+
+            string sql = @"DELETE FROM `blogpost` WHERE `id` = @id";
+            var cmd = new MySqlCommand(@sql, connenction);
+            cmd.Parameters.AddWithValue(@"id", id);
+            cmd.ExecuteNonQuery();
+
+            connenction.Close();
+            return new { message = "sikeres törlés", resoult = "" };
+        }
+
     }
 }
