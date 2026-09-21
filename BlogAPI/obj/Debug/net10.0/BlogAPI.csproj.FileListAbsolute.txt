@@ -34,3 +34,4 @@ C:\Users\kissb\Desktop\C#\WebApi\RestfulApp\BlogAPI\obj\Debug\net10.0\BlogAPI.ge
 C:\Users\kissb\Desktop\C#\WebApi\RestfulApp\BlogAPI\obj\Debug\net10.0\ref\BlogAPI.dll
 C:\Users\kissb\Desktop\C#\WebApi\RestfulApp\BlogAPI\bin\Debug\net10.0\Scalar.AspNetCore.dll
 C:\Users\kissb\Desktop\C#\WebApi\RestfulApp\BlogAPI\bin\Debug\net10.0\MySqlConnector.dll
+C:\Users\kissb\Desktop\C#\WebApi\RestfulApp\BlogAPI\obj\Debug\net10.0\BlogAPI.sourcelink.json
