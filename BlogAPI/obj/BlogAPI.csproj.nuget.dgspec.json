@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\BlogAPI.csproj": {}
+    "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\BlogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\BlogAPI.csproj": {
+    "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\BlogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\BlogAPI.csproj",
+        "projectUniqueName": "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\BlogAPI.csproj",
         "projectName": "BlogAPI",
-        "projectPath": "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\BlogAPI.csproj",
+        "projectPath": "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\BlogAPI.csproj",
         "packagesPath": "C:\\Users\\kissb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\obj\\",
+        "outputPath": "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -55,7 +55,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.11, )"
+              "version": "[10.0.12, )"
             },
             "MySqlConnector": {
               "target": "Package",
@@ -63,7 +63,7 @@
             },
             "Scalar.AspNetCore": {
               "target": "Package",
-              "version": "[2.17.3, )"
+              "version": "[2.17.10, )"
             }
           },
           "imports": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

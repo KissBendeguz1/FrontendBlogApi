@@ -2,10 +2,10 @@
   "version": 4,
   "targets": {
     "net10.0": {
-      "Microsoft.AspNetCore.OpenApi/10.0.11": {
+      "Microsoft.AspNetCore.OpenApi/10.0.12": {
         "type": "package",
         "dependencies": {
-          "Microsoft.OpenApi": "[2.7.5, 3.0.0)"
+          "Microsoft.OpenApi": "[2.12.0, 3.0.0)"
         },
         "compile": {
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
@@ -24,7 +24,7 @@
           "build/Microsoft.AspNetCore.OpenApi.targets": {}
         }
       },
-      "Microsoft.OpenApi/2.7.5": {
+      "Microsoft.OpenApi/2.12.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.OpenApi.dll": {
@@ -50,7 +50,7 @@
           }
         }
       },
-      "Scalar.AspNetCore/2.17.3": {
+      "Scalar.AspNetCore/2.17.10": {
         "type": "package",
         "compile": {
           "lib/net10.0/Scalar.AspNetCore.dll": {
@@ -69,10 +69,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/10.0.11": {
-      "sha512": "R/1EATnPLU+gRfB6lwVkMcymmyAY5ppBBdRN/5lhNEiT3xP1sWccuSFkU/f1lQvN/WgRq5Vn8AhCdE3fqgsL/w==",
+    "Microsoft.AspNetCore.OpenApi/10.0.12": {
+      "sha512": "7RnQ/UKn+kK3JDLmTpW+vVqNErWthGPAVAy1aIiBzv4ucQ6g9NFvOJUuT0PHcpvcJxGVxctMxj6t+NESWMrgHQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/10.0.11",
+      "path": "microsoft.aspnetcore.openapi/10.0.12",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -83,14 +83,14 @@
         "build/Microsoft.AspNetCore.OpenApi.targets",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.10.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.10.0.12.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-    "Microsoft.OpenApi/2.7.5": {
-      "sha512": "0FA67RSnRM4tcBKqiqVu/HPdZ9+QOKbmeRjxRUGTCjPU4C0bmUhd97Dso7Yild5P7nOV6GxJ2xrK0Kv/O9xp0w==",
+    "Microsoft.OpenApi/2.12.0": {
+      "sha512": "0xB/be+f6qYOhvQPUrVsLrau+fkowYv6gt9RIkajMhwT7sZnqtcA797yW3bS5kgSje+AQW4xZgyLnW641YFioQ==",
       "type": "package",
-      "path": "microsoft.openapi/2.7.5",
+      "path": "microsoft.openapi/2.12.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -101,7 +101,7 @@
         "lib/netstandard2.0/Microsoft.OpenApi.dll",
         "lib/netstandard2.0/Microsoft.OpenApi.pdb",
         "lib/netstandard2.0/Microsoft.OpenApi.xml",
-        "microsoft.openapi.2.7.5.nupkg.sha512",
+        "microsoft.openapi.2.12.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
     },
@@ -136,10 +136,10 @@
         "mysqlconnector.nuspec"
       ]
     },
-    "Scalar.AspNetCore/2.17.3": {
-      "sha512": "TwAf1zy/MH2famozcDqk9+/jD37VAbonRXfnjAso0Q2YKeWtA0kH59WxhuevvAxWDL3jUU3TDpNmUFS2gF9bHw==",
+    "Scalar.AspNetCore/2.17.10": {
+      "sha512": "lASwa/do5YYLNp+EQ/LTfm9gxBykypyzQh52aJNYnYkMfFJDwsQ+W7+mKSFejfxA1jGaorFPSeUQHHslnBsdtA==",
       "type": "package",
-      "path": "scalar.aspnetcore/2.17.3",
+      "path": "scalar.aspnetcore/2.17.10",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -151,16 +151,16 @@
         "lib/net8.0/Scalar.AspNetCore.xml",
         "lib/net9.0/Scalar.AspNetCore.dll",
         "lib/net9.0/Scalar.AspNetCore.xml",
-        "scalar.aspnetcore.2.17.3.nupkg.sha512",
+        "scalar.aspnetcore.2.17.10.nupkg.sha512",
         "scalar.aspnetcore.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.11",
+      "Microsoft.AspNetCore.OpenApi >= 10.0.12",
       "MySqlConnector >= 2.6.2",
-      "Scalar.AspNetCore >= 2.17.3"
+      "Scalar.AspNetCore >= 2.17.10"
     ]
   },
   "packageFolders": {
@@ -170,11 +170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\BlogAPI.csproj",
+      "projectUniqueName": "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\BlogAPI.csproj",
       "projectName": "BlogAPI",
-      "projectPath": "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\BlogAPI.csproj",
+      "projectPath": "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\BlogAPI.csproj",
       "packagesPath": "C:\\Users\\kissb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kissb\\Desktop\\C#\\WebApi\\RestfulApp\\BlogAPI\\obj\\",
+      "outputPath": "C:\\Users\\kissb\\source\\repos\\FrontendBlogApi\\BlogAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -218,7 +218,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[10.0.11, )"
+            "version": "[10.0.12, )"
           },
           "MySqlConnector": {
             "target": "Package",
@@ -226,7 +226,7 @@
           },
           "Scalar.AspNetCore": {
             "target": "Package",
-            "version": "[2.17.3, )"
+            "version": "[2.17.10, )"
           }
         },
         "imports": [
@@ -248,7 +248,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
